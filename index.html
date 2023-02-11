@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <style>
+    *{text-align: center;}
+    h1{font: 50px times, bold, serif;}
+    body{background-color: bisque;}
+    input{font: 25px times, serif;}
+    button{font: 25px times, serif;position: relative; top: 5px;}
+  </style>
+</head>
+
+<body>
+  <h1>GIF FINDER!</h1>
+  <form>
+    <input type="text" id="gif-name" placeholder="Enter a search term">
+    <input type="submit" id="search-btn">
+  </form>
+  <button id="clear-btn">Clear Page</button>
+<div id="picture-space"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
